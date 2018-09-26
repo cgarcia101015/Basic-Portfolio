@@ -1,5 +1,76 @@
 
  
+body {
+    width: 100%;
+    margin: auto;
+    background-image: url("../images/cork-wallet.png");
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 12px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 25px;
+    width: 25%;
+}
+
+.header {
+    background: white;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+
+li {
+    list-style: none;
+    color: black;
+    float: left;
+    margin-left: 15px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+
+.nav {
+    float: right;
+}
+
+img {
+    float: left;
+}
+
+.content {
+    position: relative;
+    top: 200px;
+    background-color: white;
+    border: 3px solid;
+    padding: 10px;
+    border-color: grey;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+     border-top: 5px solid #4aaaa5;
+}
 
 
 
@@ -9,10 +80,7 @@
 
 
 
-
-
-
-
+/*
 body {
     font-family:'Arial', 'Helvetica', sans-serif;
     background-image: url("../images/cork-wallet.png");
@@ -47,3 +115,4 @@ div {
     background-color: white;
 }
 
+*/
