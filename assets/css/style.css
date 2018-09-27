@@ -11,21 +11,14 @@ body {
     margin: 0 auto;
 }
 
-.logo {
-    float: left;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 12px;
-    color: white;
-    background-color: #4aaaa5;
-    padding: 25px;
-    width: 25%;
-}
+
 
 .header {
     background: white;
     width: 100%;
     top: 0;
     position: fixed;
+    border-bottom-color: 5px solid black;
 }
 
 a {
@@ -36,8 +29,8 @@ a {
 
 li {
     list-style: none;
-    color: black;
-    float: left;
+    color: darkgrey;
+    float: right;
     margin-left: 15px;
     padding-top: 25px;
     font-size: 20px;
@@ -50,6 +43,7 @@ li {
 
 img {
     float: left;
+    margin: 10px;
 }
 
 .content {
@@ -72,6 +66,15 @@ img {
      border-top: 5px solid #4aaaa5;
 }
 
+.logo {
+    float: left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px;
+    width: 25%;
+}
 
 
 
@@ -80,14 +83,9 @@ img {
 
 
 
-<<<<<<< HEAD
 
-
-
-
-=======
 /*
->>>>>>> fdfe22b5e4577bed632f0e87d56363f1860ec247
+
 body {
     font-family:'Arial', 'Helvetica', sans-serif;
     background-image: url("../images/cork-wallet.png");
