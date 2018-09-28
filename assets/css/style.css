@@ -1,9 +1,9 @@
-
+/*
 .content{
     width: 960px;
     position: relative;
     margin: auto;
-    
+    border-color: #dddddd;    
 }
 
 .header {
@@ -48,7 +48,10 @@ img {
     float: left;
     margin: 10px;
 }
-/*
+
+*/
+
+
 body {
     width: 100%;
     margin: auto;
@@ -68,7 +71,7 @@ body {
     width: 100%;
     top: 0;
     position: fixed;
-    border-bottom-color: 5px solid grey;
+    
 }
 
 a {
@@ -77,6 +80,27 @@ a {
 }
 
 
+ ul {
+    list-style-type: none;
+    margin: 45px;
+    padding-top:25;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: #a2a3a7;
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+/*
 li {
     list-style: none;
     color: black;
@@ -90,7 +114,7 @@ li {
 .nav {
     float: right;
 }
-
+*/
 img {
     float: left;
     margin: 10px;
@@ -120,14 +144,46 @@ img {
 .logo {
     float: left;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 16px;
     color: white;
     background-color: #4aaaa5;
-    padding: 10px;
+    padding-bottom: 0px;
     width: 25%;
+    margin: 10px;
 }
 
-*/
+bodyCT {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
 
 
 
